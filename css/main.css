@@ -1,0 +1,63 @@
+*{
+margin: 0;
+padding: 0;
+font-family: "Poppins",sans-serif;
+box-sizing: border-box;
+}
+
+.header{
+  height: 10vh;
+  width: 100%;
+  background: #080008;
+  overflow: hidden;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  z-index: 2;
+}
+
+nav{
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+}
+
+.logo{
+  width: 140px;
+}
+
+.logopic{
+  width: 4vw;
+  margin-left: 10%;
+
+}
+
+
+
+.nav-links{
+  padding: 28px 0;
+}
+
+.nav-links li{
+  display:inline-block;
+  margin: 0 15px;
+}
+
+
+
+
+
+.nav-links li a{
+  text-decoration: none;
+  color: aliceblue;
+  padding: 5px 0;
+  font-size: 24px;
+  position: relative;
+}
+
+.nav-links li a:hover{
+  width: 100%;
+	background: -webkit-linear-gradient(28deg, #7C83FD, #96BAFF,#7DEDFF,#88FFF7);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+}
